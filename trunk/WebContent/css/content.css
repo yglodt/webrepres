@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+div#htmlContent img {
+	/*margin-right:10px;*/
+	padding:2px;
+	border:2px solid gray;
+}
+
+div#htmlContent p {
+	/*margin-left:20px;*/
+}
+
+div#fileContent img {
+	padding:2px;
+	border:2px solid gray;
+}
+
+div#htmlContent li {
+	list-style-position: inside;
+}
