@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>WebReports</display-name>
+	<servlet>
+		<description />
+
+		<display-name>Controller</display-name>
+		<servlet-name>Controller</servlet-name>
+		<servlet-class>Controller</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<url-pattern>/Controller</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<listener>
+		<listener-class>lu.mind.projects.cms.ApplicationListener</listener-class>
+	</listener>
+
+
+<!--
+<servlet>
+<servlet-name>Connector</servlet-name>
+<servlet-class>com.fredck.FCKeditor.connector.ConnectorServlet</servlet-class>
+<init-param>
+<param-name>baseDir</param-name>
+<param-value>/UserFiles/</param-value>
+</init-param>
+<init-param>
+<param-name>debug</param-name>
+<param-value>false</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Connector</servlet-name>
+<url-pattern>/FCKeditor/editor/filemanager/browser/default/connectors/jsp/connector</url-pattern>
+</servlet-mapping>
+-->
+
+</web-app>

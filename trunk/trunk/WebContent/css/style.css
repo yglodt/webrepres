@@ -1,0 +1,249 @@
+@CHARSET "UTF-8";
+
+body, div, img, ul, li, table, th, td, iframe, form {
+	padding:0;
+	margin:0;
+	border:0;	
+}
+
+body#body {
+	position:relative;
+	margin:5px;
+}
+
+body.main,p,a,th,td,li,span,h1,h2,h3,h4,h5,h6,form,input,select,textarea,legend,button {
+	font-family: sans-serif;
+	color: #000;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+p,a,th,td,li,span,form,input,select,textarea,pre,legend,div,button {
+	font-size: 9pt;
+}
+
+h1 {
+	/*font-size: 18pt;*/
+	margin-top:0;
+}
+
+div#report pre {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+div#content {
+	float:left;
+	margin-left:160px;
+	margin-top:50px;
+}
+
+div#systemmenu {
+	position:absolute;
+	right:10px;
+	top:10px;
+	z-index:10;
+	border: 1px dotted red;
+	padding: 3px;
+	/*margin:0 0 10px 10px;*/
+	background-color: #eff;
+}
+
+div#systemmenu li {
+	list-style:none;
+}
+
+div#systemmenu li#title {
+	text-align:center;
+	background-color: #dee;
+}
+
+div#reportList {
+	margin-bottom: 10px;
+}
+
+div#exception pre {
+	color: red;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:link,a:visited {
+	color: #202080;
+	text-decoration: none;
+}
+
+a:active {
+	color: #2020ff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+
+tr.o {
+	background-color: #ffc;
+}
+
+tr.o:hover {
+	background-color: #eeb;
+}
+
+tr.e {
+	background-color: #fff;
+}
+
+tr.e:hover {
+	background-color: #eeb;
+}
+
+th {
+	background-color: #d6d3ce;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid #999;
+}
+
+th a {
+	font-weight: bold;
+}
+
+td {
+	text-align: left;
+	border: 1px solid #999;
+	padding: 3px;
+	white-space: nowrap;
+}
+
+input.text, select,textarea {
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+textarea {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+iframe.embedded {
+	overflow: auto;
+}
+
+#topMenu {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#topMenu .navlist {
+	padding: 3px 0;
+	margin-left: 0;
+	border-bottom: 1px solid gray;
+}
+
+#topMenu .navlist li {
+	list-style: none;
+	display: inline;
+}
+
+#topMenu .navlist li a {
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 1px solid gray;
+	border-bottom: none;
+	background: #DDE;
+	text-decoration: none;
+}
+
+#topMenu .navlist li a:link {
+	color: #448;
+}
+
+#topMenu .navlist li a:visited {
+	color: #667;
+}
+
+#topMenu .navlist li a:hover {
+	color: #000;
+	background: #AAE;
+	border-color: #227;
+}
+
+#topMenu .navlist li a.current {
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+#bottomMenu {
+	clear:both;
+	margin-top:100px;
+	padding:2px;
+	border: 1px solid gray;
+}
+
+#bottomMenu li {
+	display: inline;
+	list-style-type: none;
+}
+
+#bottomMenu a.current {
+	font-weight:bold;
+}
+
+#leftMenu ul {
+	list-style-type: none;
+}
+
+#leftMenu {
+	position:absolute;
+	left:0;
+	top:49px;
+	width:150px;
+}
+
+#leftMenu li {
+	list-style: none;
+	border: 1px solid gray;
+	border-bottom:0;
+}
+
+#leftMenu li.last {
+	border-bottom: 1px solid gray;
+}
+
+#leftMenu a {
+	padding:2px;
+	display:block;
+}
+
+#leftMenu a:hover {
+	text-decoration:none;
+}
+
+#leftMenu a.current {
+	background-color:#deeeee;
+}
+
+#rightMenu {
+
+}
+
+#rightMenu a.current {
+	font-weight:bold;
+}
+
+#footer {
+	margin-left:0;
+	margin-top:10px;
+	padding:2px;
+	background-color: #dde;
+}
