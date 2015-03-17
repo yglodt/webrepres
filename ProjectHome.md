@@ -1,0 +1,1 @@
+This tool helps you to create a web page or site with information from an existing database, or newly WYSIWYG-created content
